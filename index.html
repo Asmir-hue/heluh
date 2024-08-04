@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 18th Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ribbon">Eighteen and Fabulous!</div>
+        <div class="message-container">
+            <h1 id="initialMessage">🎀 Happy 18th Birthday, Sophie! 🎀</h1>
+            <h2 class="sub-message">Wishing you all the joy in the world!</h2>
+        </div>
+        <button onclick="startGame()">Click for a Surprise</button>
+        <div id="gameContent" style="display:none;">
+            <div class="word-search-grid">
+                <div class="word-search-row">
+                    <span id="cell-0">A</span><span id="cell-1">U</span><span id="cell-2">G</span><span id="cell-3">U</span><span id="cell-4">S</span><span id="cell-5">T</span><span id="cell-6">R</span>
+                </div>
+                <div class="word-search-row">
+                    <span id="cell-7">0</span><span id="cell-8">4</span><span id="cell-9">P</span><span id="cell-10">X</span><span id="cell-11">Z</span><span id="cell-12">2</span><span id="cell-13">0</span>
+                </div>
+                <div class="word-search-row">
+                    <span id="cell-14">0</span><span id="cell-15">6</span><span id="cell-16">H</span><span id="cell-17">M</span><span id="cell-18">B</span><span id="cell-19">Q</span><span id="cell-20">V</span>
+                </div>
+                <div class="word-search-row">
+                    <span id="cell-21">R</span><span id="cell-22">J</span><span id="cell-23">L</span><span id="cell-24">N</span><span id="cell-25">W</span><span id="cell-26">A</span><span id="cell-27">I</span>
+                </div>
+                <div class="word-search-row">
+                    <span id="cell-28">O</span><span id="cell-29">T</span><span id="cell-30">F</span><span id="cell-31">G</span><span id="cell-32">Y</span><span id="cell-33">C</span><span id="cell-34">D</span>
+                </div>
+                <div class="word-search-row">
+                    <span id="cell-35">E</span><span id="cell-36">V</span><span id="cell-37">X</span><span id="cell-38">P</span><span id="cell-39">S</span><span id="cell-40">U</span><span id="cell-41">Z</span>
+                </div>
+            </div>
+            <p class="word-search-instructions">Find the words: AUGUST, 04, 2006</p>
+            <button onclick="checkWordSearch()">Submit</button>
+            <p id="wordSearchMessage"></p>
+        </div>
+        <!-- Updated Content for After Game -->
+<div id="cardContent">
+    <div class="photo-frame">
+        <img src="Sophie.jpg" alt="Birthday Photo" class="birthday-image">
+    </div>
+    <p id="letter">Happy 18th birthday Sophie! Wow, you're finally 18! ( baka uminom ka nanaman kila hannah ng wine, charot ) Even though we’re in different orgs this semester, always remember that I’m here for you. I know it can be tough to start conversations with other people, but take your time and do what feels right for you. Also, thank you for always listening to my chika abt activities in school and some of my friends. I can't wait to see all the great things you'll do this year. Enjoy your special day panot! </p>
+   <!-- Heart Button within Card Content -->
+<div class="heart-button-container">
+    <button class="heart-button" onclick="goHome()">❤️</button>
+</div>
+
+</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
